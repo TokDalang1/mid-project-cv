@@ -54,12 +54,12 @@ body {
   color: #2c3e50;
   margin: 0;
 }
-.section .contact-info {
+.section .contact-info .contactInfoNumb {
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
-.section .contact-info i {
+.section .contact-info .contactInfoNumb i {
   margin-right: 10px;
   color: #2c3e50;
 }
