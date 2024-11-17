@@ -1,5 +1,5 @@
 import { getDatabase, ref, onValue } from "firebase/database";
-import { useEffect, useState, CSSProperties } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const [header, setHeader] = useState({});
@@ -26,8 +26,8 @@ const Header = () => {
         loading="lazy"
       />
       <div className="info">
-        <h1>Eden J Mirontoneng Komtole</h1>
-        <h2>Data Analyst</h2>
+        <h1>{header.title}</h1>
+        <h2>{header.subTitle}</h2>
       </div>
     </div>
   );
