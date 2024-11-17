@@ -18,9 +18,15 @@ const Header = () => {
 
   return (
     <div className="header">
-      <img alt="my photo" height={250} src={header.img} width={200} />
+      <img
+        alt="Eden J Mirontoneng"
+        height={250}
+        src={header.img}
+        width={200}
+        loading="lazy"
+      />
       <div className="info">
-        <h1>Eden J Mirontoneng</h1>
+        <h1>Eden J Mirontoneng Komtole</h1>
         <h2>Data Analyst</h2>
       </div>
     </div>
